@@ -1,7 +1,7 @@
 function MensajeIf() {
 	let numero1;
 	numero1 = parseInt(document.getElementById("numero1").value, 10);
-	if((numero)>=7 && (numero1)<=11) {
+	if((numero1)>=7 && (numero1)<=11) {
 		document.getElementById("solucion").innerHTML = "Buenos días";
 		
 	}
