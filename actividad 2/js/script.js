@@ -1,7 +1,8 @@
-function funcion1(){
+function saludar(){
     alert("saludar");
+    emoji();
 }
-function funcion2(){
+function despedirse(){
     alert("despedirse");
     emoji();
 }
