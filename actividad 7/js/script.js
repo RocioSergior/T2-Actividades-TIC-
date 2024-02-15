@@ -7,7 +7,7 @@ function Comprobar() {
 				document.getElementById("solucion").innerHTML = "Sobresaliente";
 
 			}
-			else if (numero1>=8) {
+			else if (numero1>=7) {
 				document.getElementById("solucion").innerHTML = "Notable";
 
 			}
