@@ -30,16 +30,16 @@ function MensajeIf() {
 		case 4:
 		case 5:
 		case 6:
-			alert("Buenas noches")
-			// document.getElementById("solucion").innerHTML = "Buenas noches";
+			//alert("Buenas noches")
+			 document.getElementById("solucion").innerHTML = "Buenas noches";
 		break;
 		case 7:
 		case 8:
 		case 9:
 		case 10:
 		case 11:
-			alert("Buenos días")
-			// document.getElementById("solucion").innerHTML = "Buenos días";
+			//alert("Buenos días")
+			 document.getElementById("solucion").innerHTML = "Buenos días";
 		break;
 		case 12:
 		case 13:
@@ -50,12 +50,12 @@ function MensajeIf() {
 		case 18:
 		case 19:
 		case 20:
-			alert("Buenas tardes")
-			// documentElementById("solucion").innerHTML = "Buenas tardes";
+			//alert("Buenas tardes")
+			documentElementById("solucion").innerHTML = "Buenas tardes";
 		break;
 		default:
-			alert("No es un úmero válido")
-			// documentElementById("solucion").innerHTML = "No es un número válido";
+			//alert("No es un úmero válido")
+			 documentElementById("solucion").innerHTML = "No es un número válido";
 
 		
 	}
