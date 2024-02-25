@@ -55,7 +55,8 @@ function MensajeIf() {
 		break;
 		default:
 			//alert("No es un úmero válido")
-			 documentElementById("solucion").innerHTML = "No es un número válido";
+			 document.getElementById("solucion").innerHTML = "No es un número válido";
+		break;
 
 		
 	}
