@@ -17,13 +17,13 @@ function MensajeIf() {
  }
  function MensajeSwitch() {
 	let numero1;
-	numero1 = parseInt(document.getElementById("numero1").ariaValueMax, 10);
+	numero1 = parseInt(document.getElementById("numero1").value, 10);
 	switch (numero1){
 		case 21:
 		case 22:
 		case 23:
 		case 24:
-		case o:
+		case 0:
 		case 1:
 		case 2:
 		case 3:
@@ -51,7 +51,7 @@ function MensajeIf() {
 		case 19:
 		case 20:
 			//alert("Buenas tardes")
-			documentElementById("solucion").innerHTML = "Buenas tardes";
+			document.getElementById("solucion").innerHTML = "Buenas tardes";
 		break;
 		default:
 			//alert("No es un úmero válido")
